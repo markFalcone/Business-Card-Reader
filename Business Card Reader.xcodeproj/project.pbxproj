@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047F5DA123E611E000A25DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F5DA023E611E000A25DCE /* AppDelegate.swift */; };
+		047F5DA323E611E000A25DCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F5DA223E611E000A25DCE /* SceneDelegate.swift */; };
+		047F5DA523E611E000A25DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F5DA423E611E000A25DCE /* ViewController.swift */; };
+		047F5DA823E611E000A25DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047F5DA623E611E000A25DCE /* Main.storyboard */; };
+		047F5DAA23E611E100A25DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047F5DA923E611E100A25DCE /* Assets.xcassets */; };
+		047F5DAD23E611E100A25DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047F5DAB23E611E100A25DCE /* LaunchScreen.storyboard */; };
+		047F5DB823E611E100A25DCE /* Business_Card_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F5DB723E611E100A25DCE /* Business_Card_ReaderTests.swift */; };
+		047F5DC323E611E100A25DCE /* Business_Card_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F5DC223E611E100A25DCE /* Business_Card_ReaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047F5DB423E611E100A25DCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047F5D9523E611E000A25DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047F5D9C23E611E000A25DCE;
+			remoteInfo = "Business Card Reader";
+		};
+		047F5DBF23E611E100A25DCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047F5D9523E611E000A25DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047F5D9C23E611E000A25DCE;
+			remoteInfo = "Business Card Reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047F5D9D23E611E000A25DCE /* Business Card Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business Card Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047F5DA023E611E000A25DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		047F5DA223E611E000A25DCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		047F5DA423E611E000A25DCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047F5DA723E611E000A25DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047F5DA923E611E100A25DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047F5DAC23E611E100A25DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047F5DAE23E611E100A25DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047F5DB323E611E100A25DCE /* Business Card ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Business Card ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047F5DB723E611E100A25DCE /* Business_Card_ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_Card_ReaderTests.swift; sourceTree = "<group>"; };
+		047F5DB923E611E100A25DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047F5DBE23E611E100A25DCE /* Business Card ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Business Card ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047F5DC223E611E100A25DCE /* Business_Card_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_Card_ReaderUITests.swift; sourceTree = "<group>"; };
+		047F5DC423E611E100A25DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047F5D9A23E611E000A25DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F5DB023E611E100A25DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F5DBB23E611E100A25DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047F5D9423E611E000A25DCE = {
+			isa = PBXGroup;
+			children = (
+				047F5D9F23E611E000A25DCE /* Business Card Reader */,
+				047F5DB623E611E100A25DCE /* Business Card ReaderTests */,
+				047F5DC123E611E100A25DCE /* Business Card ReaderUITests */,
+				047F5D9E23E611E000A25DCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047F5D9E23E611E000A25DCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047F5D9D23E611E000A25DCE /* Business Card Reader.app */,
+				047F5DB323E611E100A25DCE /* Business Card ReaderTests.xctest */,
+				047F5DBE23E611E100A25DCE /* Business Card ReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047F5D9F23E611E000A25DCE /* Business Card Reader */ = {
+			isa = PBXGroup;
+			children = (
+				047F5DA023E611E000A25DCE /* AppDelegate.swift */,
+				047F5DA223E611E000A25DCE /* SceneDelegate.swift */,
+				047F5DA423E611E000A25DCE /* ViewController.swift */,
+				047F5DA623E611E000A25DCE /* Main.storyboard */,
+				047F5DA923E611E100A25DCE /* Assets.xcassets */,
+				047F5DAB23E611E100A25DCE /* LaunchScreen.storyboard */,
+				047F5DAE23E611E100A25DCE /* Info.plist */,
+			);
+			path = "Business Card Reader";
+			sourceTree = "<group>";
+		};
+		047F5DB623E611E100A25DCE /* Business Card ReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				047F5DB723E611E100A25DCE /* Business_Card_ReaderTests.swift */,
+				047F5DB923E611E100A25DCE /* Info.plist */,
+			);
+			path = "Business Card ReaderTests";
+			sourceTree = "<group>";
+		};
+		047F5DC123E611E100A25DCE /* Business Card ReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047F5DC223E611E100A25DCE /* Business_Card_ReaderUITests.swift */,
+				047F5DC423E611E100A25DCE /* Info.plist */,
+			);
+			path = "Business Card ReaderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047F5D9C23E611E000A25DCE /* Business Card Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047F5DC723E611E100A25DCE /* Build configuration list for PBXNativeTarget "Business Card Reader" */;
+			buildPhases = (
+				047F5D9923E611E000A25DCE /* Sources */,
+				047F5D9A23E611E000A25DCE /* Frameworks */,
+				047F5D9B23E611E000A25DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Business Card Reader";
+			productName = "Business Card Reader";
+			productReference = 047F5D9D23E611E000A25DCE /* Business Card Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047F5DB223E611E100A25DCE /* Business Card ReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047F5DCA23E611E100A25DCE /* Build configuration list for PBXNativeTarget "Business Card ReaderTests" */;
+			buildPhases = (
+				047F5DAF23E611E100A25DCE /* Sources */,
+				047F5DB023E611E100A25DCE /* Frameworks */,
+				047F5DB123E611E100A25DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047F5DB523E611E100A25DCE /* PBXTargetDependency */,
+			);
+			name = "Business Card ReaderTests";
+			productName = "Business Card ReaderTests";
+			productReference = 047F5DB323E611E100A25DCE /* Business Card ReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047F5DBD23E611E100A25DCE /* Business Card ReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047F5DCD23E611E100A25DCE /* Build configuration list for PBXNativeTarget "Business Card ReaderUITests" */;
+			buildPhases = (
+				047F5DBA23E611E100A25DCE /* Sources */,
+				047F5DBB23E611E100A25DCE /* Frameworks */,
+				047F5DBC23E611E100A25DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047F5DC023E611E100A25DCE /* PBXTargetDependency */,
+			);
+			name = "Business Card ReaderUITests";
+			productName = "Business Card ReaderUITests";
+			productReference = 047F5DBE23E611E100A25DCE /* Business Card ReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047F5D9523E611E000A25DCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Praveen V";
+				TargetAttributes = {
+					047F5D9C23E611E000A25DCE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					047F5DB223E611E100A25DCE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 047F5D9C23E611E000A25DCE;
+					};
+					047F5DBD23E611E100A25DCE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 047F5D9C23E611E000A25DCE;
+					};
+				};
+			};
+			buildConfigurationList = 047F5D9823E611E000A25DCE /* Build configuration list for PBXProject "Business Card Reader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047F5D9423E611E000A25DCE;
+			productRefGroup = 047F5D9E23E611E000A25DCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047F5D9C23E611E000A25DCE /* Business Card Reader */,
+				047F5DB223E611E100A25DCE /* Business Card ReaderTests */,
+				047F5DBD23E611E100A25DCE /* Business Card ReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047F5D9B23E611E000A25DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047F5DAD23E611E100A25DCE /* LaunchScreen.storyboard in Resources */,
+				047F5DAA23E611E100A25DCE /* Assets.xcassets in Resources */,
+				047F5DA823E611E000A25DCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F5DB123E611E100A25DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F5DBC23E611E100A25DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047F5D9923E611E000A25DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047F5DA523E611E000A25DCE /* ViewController.swift in Sources */,
+				047F5DA123E611E000A25DCE /* AppDelegate.swift in Sources */,
+				047F5DA323E611E000A25DCE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F5DAF23E611E100A25DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047F5DB823E611E100A25DCE /* Business_Card_ReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F5DBA23E611E100A25DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047F5DC323E611E100A25DCE /* Business_Card_ReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047F5DB523E611E100A25DCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047F5D9C23E611E000A25DCE /* Business Card Reader */;
+			targetProxy = 047F5DB423E611E100A25DCE /* PBXContainerItemProxy */;
+		};
+		047F5DC023E611E100A25DCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047F5D9C23E611E000A25DCE /* Business Card Reader */;
+			targetProxy = 047F5DBF23E611E100A25DCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047F5DA623E611E000A25DCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047F5DA723E611E000A25DCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047F5DAB23E611E100A25DCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047F5DAC23E611E100A25DCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047F5DC523E611E100A25DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047F5DC623E611E100A25DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047F5DC823E611E100A25DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Business Card Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pv.Business-Card-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047F5DC923E611E100A25DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Business Card Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pv.Business-Card-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		047F5DCB23E611E100A25DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Business Card ReaderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pv.Business-Card-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Business Card Reader.app/Business Card Reader";
+			};
+			name = Debug;
+		};
+		047F5DCC23E611E100A25DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Business Card ReaderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pv.Business-Card-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Business Card Reader.app/Business Card Reader";
+			};
+			name = Release;
+		};
+		047F5DCE23E611E100A25DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Business Card ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pv.Business-Card-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Business Card Reader";
+			};
+			name = Debug;
+		};
+		047F5DCF23E611E100A25DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Business Card ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pv.Business-Card-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Business Card Reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047F5D9823E611E000A25DCE /* Build configuration list for PBXProject "Business Card Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047F5DC523E611E100A25DCE /* Debug */,
+				047F5DC623E611E100A25DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047F5DC723E611E100A25DCE /* Build configuration list for PBXNativeTarget "Business Card Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047F5DC823E611E100A25DCE /* Debug */,
+				047F5DC923E611E100A25DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047F5DCA23E611E100A25DCE /* Build configuration list for PBXNativeTarget "Business Card ReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047F5DCB23E611E100A25DCE /* Debug */,
+				047F5DCC23E611E100A25DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047F5DCD23E611E100A25DCE /* Build configuration list for PBXNativeTarget "Business Card ReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047F5DCE23E611E100A25DCE /* Debug */,
+				047F5DCF23E611E100A25DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047F5D9523E611E000A25DCE /* Project object */;
+}
