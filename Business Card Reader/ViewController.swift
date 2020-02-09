@@ -23,6 +23,14 @@ class ViewController: UIViewController  {
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var companyField: UITextField!
     @IBOutlet weak var addressField: UITextField!
+    @IBOutlet weak var nameButton: UIButton!
+    @IBOutlet weak var phoneButton: UIButton!
+    @IBOutlet weak var emailButton: UIButton!
+    @IBOutlet weak var companyButton: UIButton!
+    @IBOutlet weak var adressButton: UIButton!
+    
+    
+    
     
     var recognizedText:String = ""
     
