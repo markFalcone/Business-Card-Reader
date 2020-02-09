@@ -1,0 +1,6 @@
+framework module Pods_Business_Card_ReaderTests {
+  umbrella header "Pods-Business Card ReaderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

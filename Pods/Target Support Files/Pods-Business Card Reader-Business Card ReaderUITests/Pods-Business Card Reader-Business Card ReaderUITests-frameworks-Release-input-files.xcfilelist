@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Business Card Reader-Business Card ReaderUITests/Pods-Business Card Reader-Business Card ReaderUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework
+${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework
+${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework

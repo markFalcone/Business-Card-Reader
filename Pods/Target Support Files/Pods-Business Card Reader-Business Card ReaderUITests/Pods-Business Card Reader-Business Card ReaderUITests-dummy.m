@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Business_Card_Reader_Business_Card_ReaderUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Business_Card_Reader_Business_Card_ReaderUITests
+@end

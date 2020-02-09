@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - GPUImage (0.1.7)
+  - TesseractOCRiOS (5.0.1)
+
+DEPENDENCIES:
+  - AlamofireImage
+  - GPUImage
+  - TesseractOCRiOS
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - GPUImage
+    - TesseractOCRiOS
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  TesseractOCRiOS: 2c189465f86abb030d0c5141c90da9705b647854
+
+PODFILE CHECKSUM: 169bc6918a8c75e4cbfbfd3818f8954948b3e34d
+
+COCOAPODS: 1.8.4

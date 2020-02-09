@@ -10,9 +10,13 @@ import UIKit
 import MobileCoreServices
 import TesseractOCR
 import GPUImage
+import AlamofireImage
 
-class ViewController: UIViewController {
+class ViewController: UIViewController  {
     @IBOutlet weak var textView: UITextView!
+    
+    @IBOutlet weak var cardImage: UIImageView!
+    
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var phoneField: UITextField!
@@ -38,20 +42,23 @@ class ViewController: UIViewController {
                         preferredStyle: .actionSheet)
     
     if UIImagePickerController.isSourceTypeAvailable(.camera) {
-      let cameraButton = UIAlertAction(
-        title: "Take Photo",
-        style: .default) { (alert) -> Void in
-          self.activityIndicator.startAnimating()
-          let imagePicker = UIImagePickerController()
-          imagePicker.delegate = self
-          imagePicker.sourceType = .camera
-          imagePicker.mediaTypes = [kUTTypeImage as String]
-          self.present(imagePicker, animated: true, completion: {
-            self.activityIndicator.stopAnimating()
-          })
-      }
-      imagePickerActionSheet.addAction(cameraButton)
-    }
+      let cameraButton = UIImagePickerController()
+        cameraButton.delegate = self as! UIImagePickerControllerDelegate & UINavigationControllerDelegate
+           cameraButton.allowsEditing = true
+           
+           if UIImagePickerController.isSourceTypeAvailable(.camera){
+               cameraButton.sourceType = .camera
+           }else{
+               cameraButton.sourceType = .photoLibrary
+           }
+           present(cameraButton,animated: true, completion: nil)
+        
+        }
+        
+        
+        
+        
+  
     
     let libraryButton = UIAlertAction(
       title: "Choose Existing",
@@ -71,6 +78,8 @@ class ViewController: UIViewController {
     imagePickerActionSheet.addAction(cancelButton)
     
     present(imagePickerActionSheet, animated: true)
+   
+ 
   }
 
   // Tesseract Image Recognition
@@ -110,16 +119,21 @@ extension ViewController: UINavigationControllerDelegate {
 extension ViewController: UIImagePickerControllerDelegate {
   func imagePickerController(_ picker: UIImagePickerController,
        didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+    
+    dismiss(animated: true, completion: nil)
     guard let selectedPhoto =
       info[.originalImage] as? UIImage else {
         dismiss(animated: true)
         return
     }
-    activityIndicator.startAnimating()
-    dismiss(animated: true) {
-      self.performImageRecognition(selectedPhoto)
+    cardImage.image = selectedPhoto
+   
+      activityIndicator.startAnimating()
+    dismiss(animated: true){
+      
+        self.performImageRecognition(selectedPhoto)
+      }
     }
-  }
     
     
     func putValues() {
